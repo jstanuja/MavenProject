@@ -6,12 +6,6 @@ pipeline {
         jdk 'java'
         }
         stages {
-                stage ('checkout') {
-                steps {
-                        echo 'checkout'
-                        git 'https://github.com/anugu99/pranay.git'
-                                }
-                        }
                 stage ('build') {
                         steps {
                                 echo 'build'
