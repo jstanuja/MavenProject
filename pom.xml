@@ -62,6 +62,12 @@
       <scope>runtime</scope>
     </dependency>
   </dependencies>
+  <build>
+	    <finalName>docker</finalName>
+	    <sourceDirectory>src/java</sourceDirectory>
+	    <outputDirectory>target/classes</outputDirectory>
+	    <plugins>
+
       <!-- Embedded Jetty (jetty:run-war) -->
       <plugin>
         <groupId>org.mortbay.jetty</groupId>
