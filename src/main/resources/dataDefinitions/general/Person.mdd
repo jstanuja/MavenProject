@@ -1,2 +1,4 @@
 name=char ;Name
 surname=char ;Surname
+dob=int ;DOB
+location=char ;Location
